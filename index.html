@@ -8,8 +8,13 @@
   </head>
   <body>
     <div id="wrapper">
+      <div id="header">
       <h1 id="heading">⛅ Async Weather Tracker</h1>
-
+      <div id="modes">
+        <button onclick="setTheme('light')" class="btn">☀️</button>
+        <button onclick="setTheme('dark')" class="btn">🌙</button>
+      </div>
+    </div>
       <div id="main-search-history">
         <div id="search">
           <label for="location">Search City</label>
@@ -23,10 +28,6 @@
         <div id="weather-info">
           <h2>Weather Info</h2>
         </div>
-      </div>
-      <div id="modes">
-        <button onclick="setTheme('light')" class="btn">☀️</button>
-        <button onclick="setTheme('dark')" class="btn">🌙</button>
       </div>
     </div>
 
